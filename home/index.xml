@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Homes on Chen Wang</title>
+        <link>https://chenwang8750.github.io/home/</link>
+        <description>Recent content in Homes on Chen Wang</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+
+        <atom:link href="https://chenwang8750.github.io/home/index.xml" rel="self" type="application/rss+xml"/>
+
+
+        <item>
+            <title></title>
+            <link>https://chenwang8750.github.io/home/about/</link>
+            <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+
+            <guid>https://chenwang8750.github.io/home/about/</guid>
+            <description>Chen Wang
+                Hi! I am Chen Wang. I am interested in 2D image processing and 3D face construction by using deep
+                learning methodology.
+                Currently, I am working on progressive image inpainting tasks with a multi-model approach. With the analysis of 2D to 3D, I am also curious to restore a occluded 3D face.
+                I earned my Master of Engineering in Beijing University of Technology in Jun 2020.
+
+            </description>
+        </item>
+
+
+        <item>
+            <title>Publications</title>
+            <link>https:/chenwang8750.github.io/home/publications/</link>
+            <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+
+            <guid>https://chenwang8750.github.io/home/publications/</guid>
+            <description></description>
+        </item>
+
+
+    </channel>
+</rss>

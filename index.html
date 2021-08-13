@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo"/>
+
+
+    <meta name="author" content="Chen Wang"/>
+
+
+    <meta name="description" content="PhD student of Artificial Intelligence"/>
+
+
+    <link rel="alternate" hreflang="en-us" href="https://chenwang8750.github.io/"/>
+
+
+    <meta name="theme-color" content="#1565c0"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css"
+          integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+          integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+          integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print"
+          onload="this.media='all'">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css"
+          crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css"
+          crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+
+
+    <link rel="stylesheet" href="/css/wowchemy.61d28a807ed2e7176f2296052da5bde5.css"/>
+
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Chen Wang"/>
+
+
+    <link rel="manifest" href="/index.webmanifest"/>
+
+
+    <link rel="icon" type="image/png"
+          href="/media/icon_hu31e06666eb535ef94200208b3edb96bb_10558_32x32_fill_lanczos_center_2.png"/>
+    <link rel="apple-touch-icon" type="image/png"
+          href="/media/icon_hu31e06666eb535ef94200208b3edb96bb_10558_180x180_fill_lanczos_center_2.png"/>
+
+    <link rel="canonical" href="https://chenwang8750.github.io/"/>
+
+
+    <meta property="twitter:card" content="summary"/>
+
+    <meta property="og:site_name" content="Chen Wang"/>
+    <meta property="og:url" content="https://chenwang8750.github.io/"/>
+    <meta property="og:title" content="Chen Wang"/>
+    <meta property="og:description" content="PhD student of Artificial Intelligence"/>
+    <meta property="og:image"
+          content="https://chenwang8750.github.io/media/icon_hu31e06666eb535ef94200208b3edb96bb_10558_512x512_fill_lanczos_center_2.png"/>
+    <meta property="twitter:image"
+          content="https://chenwang8750.github.io/media/icon_hu31e06666eb535ef94200208b3edb96bb_10558_512x512_fill_lanczos_center_2.png"/>
+    <meta property="og:locale" content="en-us"/>
+
+
+    <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00"/>
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://chenwang8750.github.io/?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            },
+            "url": "https://chenwang8750.github.io"
+        }
+    </script>
+
+
+    <title>Chen Wang</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   ">
+
+
+<script src="/js/wowchemy-init.min.f16be01fc8fb2b5885dd67ce942d1185.js"></script>
+
+
+<aside class="search-modal" id="search">
+    <div class="container">
+        <section class="search-header">
+
+            <div class="row no-gutters justify-content-between mb-3">
+                <div class="col-6">
+                    <h1>Search</h1>
+                </div>
+                <div class="col-6 col-search-close">
+                    <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted"
+                                                                        aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div id="search-box">
+
+                <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+                       autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+                       aria-label="Search...">
+
+            </div>
+
+
+        </section>
+        <section class="section-search-results">
+
+            <div id="search-hits">
+
+            </div>
+
+        </section>
+    </div>
+</aside>
+
+
+<div class="page-header">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+        <div class="container-xl">
+
+
+            <div class="d-none d-lg-inline-flex">
+                <a class="navbar-brand" href="/">Chen Wang</a>
+            </div>
+
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                    data-target="#navbar-content" aria-controls="navbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+
+            <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+                <a class="navbar-brand" href="/">Chen Wang</a>
+            </div>
+
+
+            <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+
+                <ul class="navbar-nav d-md-inline-flex">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+                    </li>
+
+
+                    <!--                    <li class="nav-item">-->
+                    <!--                        <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>-->
+                    <!--                    </li>-->
+
+
+                    <!--                    <li class="nav-item">-->
+                    <!--                        <a class="nav-link " href="/uploads/cv_chenwang.pdf"><span>CV</span></a>-->
+                    <!--                    </li>-->
+
+
+                </ul>
+            </div>
+
+            <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+
+                <li class="nav-item">
+                    <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search"
+                                                                                  aria-hidden="true"></i></a>
+                </li>
+
+
+                <li class="nav-item dropdown theme-dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true"
+                       aria-label="Display preferences">
+                        <i class="fas fa-moon" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item js-set-theme-light">
+                            <span>Light</span>
+                        </a>
+                        <a href="#" class="dropdown-item js-set-theme-dark">
+                            <span>Dark</span>
+                        </a>
+                        <a href="#" class="dropdown-item js-set-theme-auto">
+                            <span>Automatic</span>
+                        </a>
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+</div>
+
+<div class="page-body">
+
+
+    <span class="js-widget-page d-none"></span>
+
+
+    <section id="about" class="home-section wg-about  ">
+        <div class="home-section-bg "></div>
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div id="profile">
+
+
+                        <img class="avatar avatar-square"
+                             src="/authors/admin/avatar_huf26810d624479b0e31a67d9b64641625_124345_270x270_fill_q75_lanczos_center.jpg"
+                             alt="Chen Wang">
+
+
+                        <div class="portrait-title">
+                            <h2>Chen Wang</h2>
+                            <h3>chenwang8750@gmail.com</h3>
+<!--                                                        <h3>PhD student of Artificial Intelligence</h3>-->
+
+
+
+                            <!--                            <h3>-->
+                            <!--                                <a href="https://www.ntu.edu.sg" target="_blank" rel="noopener">-->
+                            <!--                                    <span>Nanyang Technological University</span>-->
+                            <!--                                </a>-->
+                            <!--                            </h3>-->
+
+                        </div>
+
+                        <ul class="network-icon" aria-hidden="true">
+
+
+                            <li>
+                                <a href="https://scholar.google.com/citations?user=eS4o42MAAAAJ&hl=en"
+                                   target="_blank" rel="noopener" aria-label="graduation-cap">
+                                    <i class="fas fa-graduation-cap big-icon"></i>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a href="https://github.com/chenwang8750" target="_blank" rel="noopener"
+                                   aria-label="github">
+                                    <i class="fab fa-github big-icon"></i>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a href="" target="_blank"
+                                   rel="noopener" aria-label="linkedin">
+                                    <i class="fab fa-linkedin big-icon"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+
+
+                    <h1>Biography</h1>
+
+                    <div class="article-style">
+
+                        <p>Hi! I am Chen Wang. I am interested in 2D image processing and 3D face construction by using
+                            deep
+                            learning methodology.
+                        </p>
+
+                        <p>Currently, I am working on progressive image inpainting tasks with a multi-model approach.
+                            With the analysis of 2D to 3D, I am also curious to restore a occluded 3D face.
+                        </p>
+
+
+                    </div>
+
+                    <div class="row">
+
+
+                        <div class="col-md-5">
+                            <div class="section-subheading">Interests</div>
+                            <ul class="ul-interests">
+
+                                <li>computer vision & image processing</li>
+
+                                <li>image inpainting</li>
+
+                                <li>3D face construction</li>
+
+
+                            </ul>
+                        </div>
+
+
+                        <div class="col-md-7">
+                            <div class="section-subheading">Education</div>
+                            <ul class="ul-edu fa-ul">
+
+                                <!--                                <li>-->
+                                <!--                                    <i class="fa-li fas fa-graduation-cap"></i>-->
+                                <!--                                    <div class="description">-->
+                                <!--                                        <p class="course">Nanyang Technological University, 2017 -&#45;&#45; present</p>-->
+                                <!--                                        <p class="institution">PhD in Computer Science</p>-->
+                                <!--                                    </div>-->
+                                <!--                                </li>-->
+
+                                <li>
+                                    <i class="fa-li fas fa-graduation-cap"></i>
+                                    <div class="description">
+                                        <p class="course">Beijing University of Technology, 2017 --- 2020</p>
+                                        <p class="institution">MA.E.</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <i class="fa-li fas fa-graduation-cap"></i>
+                                    <div class="description">
+                                        <p class="course">Hebei Normal University, 2012 --- 2016</p>
+                                        <p class="institution">B.E.</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="publications" class="home-section wg-pages  ">
+        <div class="home-section-bg "></div>
+        <div class="container">
+
+
+            <div class="row  ">
+
+                <div class="col-20 col-lg-12 section-heading flex-column align-items-center align-items-lg-start">
+                    <h1 class="mb-10">Publications</h1>
+
+                </div>
+                <div class="col-20 col-lg-12">
+
+                </div>
+
+
+                <div class="col-20 col-lg-18">
+
+
+                    <div class="media stream-item">
+
+                        <div class="mr-3" align="center">
+
+
+                            <img style="float: left; padding-left: 20px;" src="/publication/mufa/featured.png"
+                                 alt="alt text" width="260px" height="130px">
+
+                        </div>
+
+                        <div class="media-body">
+
+                            <div class="section-subheading article-title mb-0 mt-0">
+                                <a href="/publication/mufa/">MuFA-Net: Multi-frequency Attention Based Hierarchical
+                                    Pyramid Network for Image Inpainting</a>
+                            </div>
+
+                            <div class="stream-meta article-metadata">
+
+
+                                <div class="stream-meta article-metadata">
+                                    <div itemprop="author">
+                                        <a href="https://chenwang8750.github.io"><strong>Chen Wang</strong></a>,
+                                        <a href="http://yanzhao.bjut.edu.cn/ds/9/2020316/15843216691912646_1.html">Jin
+                                            Wang</a>,
+                                        <a href="http://yanzhao.bjut.edu.cn/ds/2/2/2015626/1435290264126_1.html">Yunhui
+                                            Shi</a>,
+                                        <a href="http://yanzhao.bjut.edu.cn/ds/9/2015720/1437355343494_1.html">Qing
+                                            Zhu</a>,
+                                        <a href="http://yanzhao.bjut.edu.cn/ds/2/2/2015626/1435290294857_1.html">Baocai
+                                            Yin</a>,
+                                        <a href="https://www.scu.edu/engineering/faculty/ling-nam/">Nam Ling</a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="stream-meta article-metadata">
+
+                            In <em>TIP</em>,
+
+                            under review
+                        </div>
+
+
+                        <!--                            <div class="btn-links">-->
+
+
+                        <!--                                <a class="btn btn-outline-primary btn-page-header btn-sm"-->
+                        <!--                                   href="" target="_blank"-->
+                        <!--                                   rel="noopener">-->
+                        <!--                                    PDF-->
+                        <!--                                </a>-->
+
+
+                        <!--                                <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"-->
+                        <!--                                   data-filename="/publication/mufanet/cite.bib">-->
+                        <!--                                    Cite-->
+                        <!--                                </a>-->
+
+
+                        <!--                                <a class="btn btn-outline-primary btn-page-header btn-sm"-->
+                        <!--                                   href="https://github.com/ChenWang8750/MuFA-Net" target="_blank" rel="noopener">-->
+                        <!--                                    Code-->
+                        <!--                                </a>-->
+
+
+                        <!--                                <a class="btn btn-outline-primary btn-page-header btn-sm"-->
+                        <!--                                   href="/publication/mufa/" target="_blank"-->
+                        <!--                                   rel="noopener">-->
+                        <!--                                    Project-->
+                        <!--                                </a>-->
+
+
+                        <!--                                <a class="btn btn-outline-primary btn-page-header btn-sm"-->
+                        <!--                                   href="https://www.youtube.com/embed/o0HHIvOT_n0" target="_blank" rel="noopener">-->
+                        <!--                                    Video-->
+                        <!--                                </a>-->
+
+
+                        <!--                                <a class="btn btn-outline-primary btn-page-header btn-sm"-->
+                        <!--                                   href="http://www.agilegan.com/" target="_blank" rel="noopener">-->
+
+                        <!--                                    Online Demo-->
+                        <!--                                </a>-->
+
+
+                        <!--                            </div>-->
+
+                    </div>
+                </div>
+
+
+                <div class="media stream-item">
+
+                    <div class="mr-3" align="center">
+
+
+                        <img style="float: left; padding-left: 20px;" src="/publication/mpi/featured.png"
+                             alt="alt text" width="260px" height="130px">
+
+                    </div>
+
+                    <div class="media-body">
+
+                        <div class="section-subheading article-title mb-0 mt-0">
+                            <a href="/publication/mpi/">Image Inpainting Based on Multi-frequency Probabilistic Inference
+                                Model</a>
+                        </div>
+
+                        <div class="stream-meta article-metadata">
+
+
+                            <div class="stream-meta article-metadata">
+                                <div itemprop="author">
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/9/2020316/15843216691912646_1.html">Jin
+                                        Wang*</a>,
+                                    <a href="https://chenwang8750.github.io"><strong>Chen Wang*</strong></a>,
+                                    <a href="https://qmhuang-ucas.github.io/">Qingming Huang</a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/2/2/2015626/1435290264126_1.html">Yunhui
+                                        Shi</a>,
+                                    <a href="https://www.math.hkust.edu.hk/~jfcai/">Jian-Feng Cai</a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/9/2015720/1437355343494_1.html">Qing Zhu</a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/2/2/2015626/1435290294857_1.html">Baocai
+                                        Yin</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="stream-meta article-metadata">
+
+                            In <em>ACM Multimedia</em>,
+
+                            2020 <strong>oral</strong>
+                        </div>
+
+
+                        <div class="btn-links">
+
+
+                            <a class="btn btn-outline-primary btn-page-header"
+                               href="https://doi.org/10.1145/3394171.3413891"
+                               target="_blank" rel="noopener">
+                                Paper
+                            </a>
+
+
+                            <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+                               data-filename="/publication/pmi/cite.bib">
+                                Cite
+                            </a>
+
+
+                            <a class="btn btn-outline-primary btn-page-header"
+                               href="https://github.com/ChenWang8750/MPI_inpainting" target="_blank" rel="noopener">
+                                Code
+                            </a>
+
+
+                            <a class="btn btn-outline-primary btn-page-header" href="/publication/pmi/"
+                               target="_blank"
+                               rel="noopener">
+                                Project
+                            </a>
+
+
+                            <a class="btn btn-outline-primary btn-page-header"
+                               href="/publication/mpi/Images/poster.pdf" target="_blank" rel="noopener">
+                                Poster
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="media stream-item">
+
+                    <div class="mr-3" align="center">
+
+
+                        <img style="float: left; padding-left: 20px;" src="/publication/wtam/featured.png"
+                             alt="alt text" width="260px" height="130px">
+
+                    </div>
+
+                    <div class="media-body">
+
+                        <div class="section-subheading article-title mb-0 mt-0">
+                            <a href="/publication/wtam/">Generative Image Inpainting Based on Wavelet Transform
+                                Attention Model</a>
+                        </div>
+
+                        <div class="stream-meta article-metadata">
+
+
+                            <div class="stream-meta article-metadata">
+                                <div itemprop="author">
+                                    <a href="https://chenwang8750.github.io"><strong>Chen Wang</strong></a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/9/2020316/15843216691912646_1.html">Jin
+                                        Wang</a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/9/2015720/1437355343494_1.html">Qing
+                                        Zhu</a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/2/2/2015626/1435290294857_1.html">Baocai
+                                        Yin</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="stream-meta article-metadata">
+
+                            In <em>ISCAS</em>,
+
+                            2020
+                        </div>
+
+
+                        <div class="btn-links">
+
+
+                            <a class="btn btn-outline-primary btn-page-header"
+                               href="https://doi.org/10.1109/ISCAS45731.2020.9180927"
+                               target="_blank" rel="noopener">
+                                Paper
+                            </a>
+
+
+                            <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+                               data-filename="/publication/wtam/cite.bib">
+                                Cite
+                            </a>
+
+
+                            <a class="btn btn-outline-primary btn-page-header"
+                               href="https://github.com/ChenWang8750/WTAM_inpainting"
+                               target="_blank" rel="noopener">
+                                Code
+                            </a>
+
+
+                            <a class="btn btn-outline-primary btn-page-header" href="/publication/wtam/"
+                               target="_blank"
+                               rel="noopener">
+                                Project
+                            </a>
+
+                            <a class="btn btn-outline-primary btn-page-header"
+                               href="/publication/wtam/Images/poster.pdf" target="_blank" rel="noopener">
+                                Poster
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="media stream-item">
+
+                    <div class="mr-3" align="center">
+
+
+                        <img style="float: left; padding-left: 20px;" src="/publication/structureaware/featured.png"
+                             alt="alt text" width="260px" height="130px">
+
+                    </div>
+
+                    <div class="media-body">
+
+                        <div class="section-subheading article-title mb-0 mt-0">
+                            <a href="/publication/structureaware/">Two-stage Structure Aware Image Inpainting Based
+                                on Generative Adversarial Networks</a>
+                        </div>
+
+                        <div class="stream-meta article-metadata">
+
+
+                            <div class="stream-meta article-metadata">
+                                <div itemprop="author">
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/9/2020316/15843216691912646_1.html">Jin
+                                        Wang</a>,
+                                    <a href="">Xi Zhang</a>,
+                                    <a href="https://chenwang8750.github.io"><strong>Chen Wang</strong></a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/9/2015720/1437355343494_1.html">Qing
+                                        Zhu</a>,
+                                    <a href="http://yanzhao.bjut.edu.cn/ds/2/2/2015626/1435290294857_1.html">Baocai
+                                        Yin</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="stream-meta article-metadata">
+
+                            In <em>ACM MMAsia</em>,
+
+                            2021
+                        </div>
+
+
+                        <div class="btn-links">
+
+
+                            <a class="btn btn-outline-primary btn-page-header"
+                               href="https://dl.acm.org/doi/10.1145/3444685.3446260"
+                               target="_blank" rel="noopener">
+                                Paper
+                            </a>
+
+
+                            <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+                               data-filename="/publication/structureaware/cite.bib">
+                                Cite
+                            </a>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+</div>
+</section>
+
+
+</div>
+
+<div class="page-footer">
+
+
+    <div class="container">
+        <footer class="site-footer">
+
+
+            <script type="text/javascript"
+                    src="//ra.revolvermaps.com/0/0/1.js?i=0s5f0y0jjk8&amp;s=180&amp;m=6&amp;v=true&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000"
+                    async="async"></script>
+
+
+            <p class="powered-by">
+
+            </p>
+
+
+        </footer>
+
+    </div>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cite</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <pre><code class="tex hljs"></code></pre>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+                    <i class="fas fa-copy"></i> Copy
+                </a>
+                <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+                    <i class="fas fa-download"></i> Download
+                </a>
+                <div id="modal-error"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js"
+        integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ=="
+        crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"
+        integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js"
+        integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw=="
+        crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+
+
+<script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+        <div class="search-hit-content">
+            <div class="search-hit-name">
+                <a href="{{relpermalink}}">{{title}}</a>
+                <div class="article-metadata search-hit-type">{{type}}</div>
+                <p class="search-hit-description">{{snippet}}</p>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js"
+        integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"
+        integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+
+<script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+
+<script src="/en/js/wowchemy.min.ad299157ffff5f8e3caf9b0eff697052.js"></script>
+
+
+</body>
+</html>
